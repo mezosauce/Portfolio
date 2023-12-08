@@ -1,0 +1,28 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    flex-wrap: wrap;  
+      background: rgba(0, 0, 0, 0.990);
+
+}
+a {
+    text-decoration: none;
+    color: 28C2FE;
+}
+ul{
+    list-style: none;
+
+}
+
+li {
+    margin: 10px;
+    line-height: 1.7;
+    font-family: cursive;
+    color:blue;
+    list-style: none;
+}
