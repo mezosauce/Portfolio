@@ -236,7 +236,7 @@ button {
     font-size: 18px;
 }
 .bg-light {
-    background-color: #fefeff !important;
+    background-color: #ffffff !important;
     box-shadow: 0px 0px 10px 0px;
     border-top: 45px solid #333a44;
 }
@@ -263,7 +263,8 @@ button {
 .image_1 {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top: 90px;
+    padding-left: 200px;
 }
 
 .video_text{
