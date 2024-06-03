@@ -354,8 +354,9 @@ button {
 
 .image_2 {
     width: 60%;
-    float: left;
-    padding-top: 50px;
+    float: right;
+    padding-top: 5rem;
+    margin-right: 5rem;
 }
 
 .about_text{
