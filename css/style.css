@@ -262,9 +262,9 @@ button {
 }
 .image_1 {
     width: 100%;
-    float: left;
+    float: center;
     padding-top: 90px;
-    padding-left: 200px;
+    padding-left: 7rem;
 }
 
 .video_text{
@@ -750,6 +750,7 @@ button {
 
 .useful_link li a{
     color: #ffffff;
+    font-size: 1.3rem;
 }
 
 .useful_link li a:hover{
