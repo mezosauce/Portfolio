@@ -427,8 +427,12 @@ ul.link li {
 .social_icon { width: 70%; }
 .social_icon ul { display: inline-flex; }
 .subscribr_bt { width: 140px; }
-.image_2 { text-align: right; }
+.image_2 { text-align: center; }
 .margin_top_2 { margin-top: 0px; }
+.image_1{
+    float: center;
+    padding: auto;
+}
 
 
 
