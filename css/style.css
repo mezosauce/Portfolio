@@ -821,4 +821,7 @@ button {
 .padding_video_0{
     margin-top: 0px; 
 }
-
+button {
+background-color: #ed1c24;
+color: white;
+}
