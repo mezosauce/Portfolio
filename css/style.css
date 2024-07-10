@@ -236,8 +236,7 @@ button {
     font-size: 18px;
 }
 .bg-light {
-    background-color: #ffffff !important;
-    box-shadow: 0px 0px 10px 0px;
+        box-shadow: 0px 0px 10px 0px;
     border-top: 45px solid #333a44;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -612,7 +611,6 @@ button {
 .contact_section{
     width: 100%;
     float: left;
-    background-color: #f2f7fd;
     height: auto;
     padding-bottom: 90px;
     margin-top: 90px;
@@ -824,4 +822,57 @@ button {
 button {
 background-color: #ed1c24;
 color: white;
+}
+
+.Darkmode-container {
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.Darkmode {
+background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Darkmode Toggles */
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.dark-mode h1{
+    color:#4f99e5;
+}
+.dark-mode p{
+    color: #fff;
+}
+
+.dark-mode .product_text{
+    color:#4f99e5;
+}
+
+.dark-mode input{
+    color:#fff;
+}
+
+.dark-mode textarea{
+    color:#fff;
+}
+
+/* Example dark mode styles for other elements */
+.darkmode .bg-light {
+    background-color: #333333 !important; 
+}
+
+.nav-link {
+    color: #ffffff;
 }
