@@ -53,6 +53,10 @@
                 
               </ul>
             </div>
+            
+            <div class="Darkmode-container">
+              <button class="Darkmode" onclick="darkmode()">DARKMODE</button>
+            </div>
         </nav>
 	</div>
 	<!-- header section end -->
@@ -240,5 +244,27 @@
         });
     </script>
     <script src="https://kit.fontawesome.com/240bced736.js" crossorigin="anonymous"></script>
+    <script>
+      function darkmode() {
+    var header = document.querySelectorAll(".header-section")
+    var element = document.querySelector("body");
+    var aboutSections = document.querySelectorAll(".about_section");
+    var contact = document.querySelectorAll(".contact_section")
+    // Toggle dark mode for the body
+    element.classList.toggle("dark-mode");
+
+    // Toggle dark mode for each about section found
+    aboutSections.forEach(function(section) {
+        section.classList.toggle("dark-mode");
+    });
+
+    contact.forEach(function(section) {
+        section.classList.toggle("dark-mode");
+    });
+
+
+
+}
+</script>
 </body>
 </html>
