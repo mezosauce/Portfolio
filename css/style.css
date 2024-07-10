@@ -839,6 +839,8 @@ background-color: #000000; /* Green */
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 100px;
+
 }
 
 /* Darkmode Toggles */
@@ -886,6 +888,7 @@ background-color: #000000; /* Green */
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 100px;
 }
 .dark-mode .bg-light .nav-link{
     color: #fff;
