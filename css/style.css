@@ -893,3 +893,6 @@ background-color: #000000; /* Green */
 .dark-mode .bg-light .nav-link{
     color: #fff;
 }
+.dark-mode .navbar-toggler-icon{
+    background-color: rgb(46, 46, 46);
+}
