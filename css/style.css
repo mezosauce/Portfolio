@@ -356,8 +356,22 @@ button {
     float: right;
     padding-top: 2rem;
     margin-right: 10rem;
+
 }
 
+.image_2 img{
+   border-radius: 100%;
+   filter: grayscale(100%);
+
+}
+
+.logo_text{
+    margin-top: 80%;
+    margin-left: 20%; /* Adjust the spacing between the image and text as needed */
+
+
+font-weight: bold;
+}
 .about_text{
     width: 100%;
     float: left;
@@ -846,11 +860,14 @@ background-color: #000000; /* Green */
 /* Darkmode Toggles */
 
 .dark-mode {
-    background-color: #121212;
+    background-color: #000000;
     color: #ffffff;
     font-weight: bold;
 }
 
+.dark-mode .about_section {
+    background-color:#000306;
+}
 .dark-mode h1{
     color:#4f99e5;
 }
@@ -895,4 +912,8 @@ background-color: #000000; /* Green */
 }
 .dark-mode .navbar-toggler-icon{
     background-color: rgb(46, 46, 46);
+}
+.dark-mode .logo_text h1{
+    color: white;
+    font-weight: bold;
 }
