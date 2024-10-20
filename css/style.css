@@ -367,7 +367,7 @@ button {
 
 .logo_text{
     margin-top: 80%;
-    margin-left: 20%; /* Adjust the spacing between the image and text as needed */
+    margin-left: 10%; /* Adjust the spacing between the image and text as needed */
 
 
 font-weight: bold;
@@ -913,6 +913,7 @@ background-color: #000000; /* Green */
 .dark-mode .navbar-toggler-icon{
     background-color: rgb(46, 46, 46);
 }
+
 .dark-mode .logo_text h1{
     color: white;
     font-weight: bold;
