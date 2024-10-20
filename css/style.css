@@ -361,8 +361,8 @@ button {
 
 .image_2 img{
    border-radius: 100%;
-   filter: grayscale(100%);
-
+   /*filter: grayscale(100%);
+*/
 }
 
 .logo_text{
