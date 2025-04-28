@@ -139,7 +139,7 @@ p {
 }
 
 a {
-     color: #222222;
+     color: #ff0000;
      text-decoration: none;
      outline: none !important;
 }
@@ -379,7 +379,7 @@ font-weight: bold;
     color: #2d343e;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
 }
 
 .lorem_text{
@@ -388,7 +388,7 @@ font-weight: bold;
     font-size: 16px;
     color: #2d343e;
     margin-left: 0px;
-    text-align: right;
+    text-align: left;
 }
 
 .shop_bt_2 {
