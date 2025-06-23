@@ -68,21 +68,21 @@
               <div class="email_box">
                   <div class="input_main">
                       <div class="container">
-                          <form action="process_form.php" method="post">
+                          <form id="contact-form">
                               <div class="form-group">
-                                  <input type="text" class="email-bt" placeholder="Name" name="Name" required>
+                                <input type="text" class="email-bt" placeholder="Name" name="Name" id="name" required>
                               </div>
                               <div class="form-group">
-                                  <input type="email" class="email-bt" placeholder="Email" name="Email" required>
+                                <input type="email" class="email-bt" placeholder="Email" name="Email" id="email" required>
                               </div>
                               <div class="form-group">
-                                  <input type="text" class="email-bt" placeholder="Phone Number" name="Phone" required>
+                                <input type="text" class="email-bt" placeholder="Company" name="Company" id="company" required>
                               </div>
                               <div class="form-group">
-                                  <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message" required></textarea>
+                                <textarea class="massage-bt" placeholder="Message" rows="5" id="message" name="Message" required></textarea>
                               </div>
                               <button type="submit" class="main_bt">SEND</button>
-                          </form>   
+                            </form>  
                       </div> 
                   </div>
               </div>
@@ -139,6 +139,11 @@
   </div>
 </div>
 <!--footer section end-->
+
+<!--Supabase-->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="js/supabase.js"></script>
+
 
   <!-- Javascript files-->
    
